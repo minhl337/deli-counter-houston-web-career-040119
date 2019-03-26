@@ -16,4 +16,6 @@ def line(array)
 end
 
 def take_a_number(array,name_string)
+  array.push(name_string)
+  puts
 end
