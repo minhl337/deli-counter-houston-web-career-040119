@@ -21,5 +21,6 @@ def take_a_number(array,name_string)
 end
 
 def now_serving(array)
-  until
+  if array.length==0
+    puts
 end
