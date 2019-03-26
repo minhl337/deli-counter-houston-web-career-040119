@@ -9,6 +9,7 @@ def line(array)
   else
     array.each do |person|
       message+=" #{counter}. #{person}"
+      counter+=1
     end
     puts message
   end
