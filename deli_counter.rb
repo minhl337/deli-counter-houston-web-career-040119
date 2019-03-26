@@ -9,5 +9,6 @@ def line(array)
   else
     array.each do |person|
       puts 
+    end
   end
 end
